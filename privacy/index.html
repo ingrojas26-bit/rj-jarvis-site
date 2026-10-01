@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — RJ Jarvis</title>
+  <meta name="description" content="How RJ Jarvis processes local content, Telegram commands and TikTok OAuth account information and tokens.">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="RJ Jarvis">
+  <meta property="og:title" content="Privacy Policy — RJ Jarvis">
+  <meta property="og:description" content="Learn what RJ Jarvis processes, why it is needed and how to revoke access or remove local data.">
+  <meta name="theme-color" content="#071326">
+  <link rel="icon" type="image/svg+xml" href="../assets/mark.svg">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="../" aria-label="RJ Jarvis home"><img src="../assets/mark.svg" alt="" width="42" height="42"> RJ Jarvis</a>
+    <nav class="nav" aria-label="Main navigation"><a href="../">Home</a><a href="../features/">Features</a><a href="../features/#tiktok">TikTok integration</a><a href="../support/">Support</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="page-hero"><div class="container"><span class="eyebrow">Your data and choices</span><h1>Privacy Policy</h1><p class="lead">RJ Jarvis is a desktop content management tool. This policy explains how the current desktop workflow and official TikTok connection handle data.</p><p class="meta-line">Effective date: September 30, 2026</p></div></section>
+    <div class="container prose">
+      <div class="callout"><p><strong>In brief:</strong> RJ Jarvis does not request or store your TikTok password. TikTok authorization uses OAuth. Generated videos and publishing records remain on your device unless you explicitly choose to send content to a platform.</p></div>
+      <h2>1. Data processed</h2>
+      <p>When you use the desktop tool, RJ Jarvis may process the content ideas and commands you enter, planned dates, video scripts and metadata, generated MP4 files, publishing approvals, local job IDs and status records. If you control RJ Jarvis through Telegram, it processes messages and the authorized chat ID needed to accept your commands and return results.</p>
+      <p>If you connect TikTok, TikTok's OAuth flow provides an access token, refresh token, authorized account identifier and the scopes you approve. RJ Jarvis may receive basic creator information, such as username and nickname, available privacy options and upload limits, to identify the account and prepare a publication. A confirmed upload may also create a TikTok publishing ID and processing status.</p>
+      <h2>2. Why the data is used</h2>
+      <p>RJ Jarvis uses these details to plan and generate your requested content, keep a local record of jobs and approvals, identify the TikTok account you authorized, validate a selected video, and report the status of an upload you explicitly confirmed. It requests <code>user.info.basic</code> for basic account identity and <code>video.publish</code> for the official TikTok posting workflow.</p>
+      <h2>3. TikTok authorization and sharing</h2>
+      <p>RJ Jarvis never asks for your TikTok password. You authorize through TikTok Login Kit. OAuth tokens are stored locally in the user's RJ Jarvis data directory, outside Git. They are used to call TikTok's official API and may be refreshed when needed. The app does not encrypt these local token files itself; access to them depends on the security of your Windows account and device.</p>
+      <p>Requesting a publishing preview does not transfer your MP4 to TikTok. Only your separate confirmation starts a private test upload. At that point the selected MP4, caption and posting settings are sent to TikTok under its own terms and privacy policy. TikTok processes the account authorization and uploaded content independently.</p>
+      <h2>4. Local storage and retention</h2>
+      <p>Content plans, job records, publishing packages and generated videos are stored locally on your device. They remain until you remove them or uninstall and clean the local data. OAuth tokens remain until they expire, are replaced, or are deleted locally; revoking TikTok access may make stored tokens unusable. RJ Jarvis does not automatically delete your generated videos after an upload.</p>
+      <h2>5. Other services and this website</h2>
+      <p>Telegram carries commands and returned results when you use the Telegram interface. Depending on the desktop features and settings you enable, narration or optional media functions may contact their configured third-party providers. Such providers handle data according to their own terms.</p>
+      <p>This static website has no account form, analytics script or advertising tracker. Its hosting provider may process ordinary website requests and server logs. The website does not receive your local videos or OAuth tokens.</p>
+      <h2>6. Sale, advertising and security</h2>
+      <p>RJ Jarvis does not sell personal data or share it with advertisers. Local configuration and token files should be kept out of public repositories and protected with your device's account security. Do not share your local OAuth files, environment variables or exported content unless you intend to.</p>
+      <h2>7. Your controls: revoke and delete</h2>
+      <ul>
+        <li>Revoke RJ Jarvis access in your TikTok account's connected-app settings. This stops future authorized API use once the revocation takes effect.</li>
+        <li>Delete the local TikTok token file from your RJ Jarvis data directory to remove the locally stored credentials. You may need to authorize again to reconnect.</li>
+        <li>Remove local videos, plans and job databases from your own device when you no longer want to keep them. Removing local copies does not remove a video already sent to TikTok; manage that copy in TikTok.</li>
+      </ul>
+      <h2>8. Changes and contact</h2>
+      <p>This policy may change if RJ Jarvis adds or changes features. The current version and effective date will appear here. For privacy questions or deletion help, visit <a href="../support/">Support</a> or email <a href="mailto:ing.ricardo.rojas26@gmail.com">ing.ricardo.rojas26@gmail.com</a>.</p>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-main">
+    <div><a class="brand" href="../"><img src="../assets/mark.svg" alt="" width="42" height="42"> RJ Jarvis</a><p>Desktop content planning, creation and publishing preparation with human control.</p></div>
+    <div class="footer-links"><strong>Explore</strong><a href="../">Home</a><a href="../features/">Features</a><a href="../features/#tiktok">TikTok integration</a></div>
+    <div class="footer-links"><strong>Information</strong><a href="./">Privacy Policy</a><a href="../terms/">Terms of Service</a><a href="../support/">Support</a></div>
+  </div><div class="footer-bottom">© 2026 RJ Jarvis. Independent desktop software; not affiliated with TikTok.</div></div></footer>
+</body>
+</html>
