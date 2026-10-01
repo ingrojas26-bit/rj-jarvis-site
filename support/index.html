@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — RJ Jarvis</title>
+  <meta name="description" content="RJ Jarvis help for TikTok connection, OAuth authorization, publishing confirmation, revocation and troubleshooting.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RJ Jarvis">
+  <meta property="og:title" content="Support — RJ Jarvis">
+  <meta property="og:description" content="Find answers about connecting TikTok, confirming a private upload and removing local account data.">
+  <meta name="theme-color" content="#071326">
+  <link rel="icon" type="image/svg+xml" href="../assets/mark.svg">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="../" aria-label="RJ Jarvis home"><img src="../assets/mark.svg" alt="" width="42" height="42"> RJ Jarvis</a>
+    <nav class="nav" aria-label="Main navigation"><a href="../">Home</a><a href="../features/">Features</a><a href="../features/#tiktok">TikTok integration</a><a href="./" aria-current="page">Support</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="page-hero"><div class="container"><span class="eyebrow">Help and guidance</span><h1>Support</h1><p class="lead">Find answers about desktop content management, connecting TikTok and keeping control of every upload.</p></div></section>
+    <section class="section"><div class="container grid two">
+      <div><h2>Contact RJ Jarvis</h2><p>For help with RJ Jarvis, contact us at the address below.</p><div class="support-field"><a href="mailto:ing.ricardo.rojas26@gmail.com">ing.ricardo.rojas26@gmail.com</a></div><p class="tiny-note">For account access or privacy questions, do not include passwords, OAuth tokens or private video files in an initial support request.</p></div>
+      <aside class="callout"><h3>Need to check a posting action?</h3><p>In your desktop workflow, inspect the publishing package and its status before trying again. If a TikTok publishing ID exists, RJ Jarvis checks its status rather than creating a duplicate upload.</p><a class="card-link" href="../features/#publishing">Review the approval flow →</a></aside>
+    </div></section>
+    <section class="section section-alt"><div class="container">
+      <div class="section-head"><span class="eyebrow">Frequently asked questions</span><h2>Common questions</h2><p>The answers below describe the current desktop test integration.</p></div>
+      <div class="faq">
+        <details><summary>How do I connect a TikTok account?</summary><p>The app operator configures an official TikTok developer app. You then complete TikTok's OAuth authorization in your browser. RJ Jarvis never asks for your TikTok password. Connection requires the approved <code>user.info.basic</code> and <code>video.publish</code> scopes.</p></details>
+        <details><summary>What does TikTok authorization allow?</summary><p><code>user.info.basic</code> lets RJ Jarvis identify the authorized creator account. <code>video.publish</code> enables the Content Posting API workflow when you explicitly confirm an upload. Authorization alone does not upload a video.</p></details>
+        <details><summary>Will RJ Jarvis post a video as soon as it is created?</summary><p>No. You must review and approve the content, prepare a publishing package, request a posting preview and issue a separate confirmation. The current TikTok test mode uses <code>SELF_ONLY</code> privacy.</p></details>
+        <details><summary>What does a scheduled date do?</summary><p>RJ Jarvis saves the planned date locally. It does not run an automatic upload at that time. A confirmed TikTok test upload begins when you give the confirmation.</p></details>
+        <details><summary>How can I revoke TikTok access?</summary><p>Remove RJ Jarvis from your TikTok account's connected-app settings, then delete the local TikTok OAuth token file if you also want to clear credentials from your device. See the <a href="../privacy/">Privacy Policy</a> for local data controls.</p></details>
+        <details><summary>Why did an upload fail or stay in processing?</summary><p>Check the publishing status in RJ Jarvis and the error recorded for the item. TikTok may reject a file, account permission or API request, or continue processing after upload. If a publishing ID exists, check its remote status; avoid initiating another upload blindly.</p></details>
+        <details><summary>Are Facebook, Instagram and YouTube uploads available?</summary><p>RJ Jarvis can prepare content packages for those destinations. Their publishing API integrations are not connected in this version.</p></details>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-main">
+    <div><a class="brand" href="../"><img src="../assets/mark.svg" alt="" width="42" height="42"> RJ Jarvis</a><p>Desktop content planning, creation and publishing preparation with human control.</p></div>
+    <div class="footer-links"><strong>Explore</strong><a href="../">Home</a><a href="../features/">Features</a><a href="../features/#tiktok">TikTok integration</a></div>
+    <div class="footer-links"><strong>Information</strong><a href="../privacy/">Privacy Policy</a><a href="../terms/">Terms of Service</a><a href="./">Support</a></div>
+  </div><div class="footer-bottom">© 2026 RJ Jarvis. Independent desktop software; not affiliated with TikTok.</div></div></footer>
+</body>
+</html>
