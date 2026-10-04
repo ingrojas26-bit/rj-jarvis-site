@@ -1,0 +1,12 @@
+{
+  "name":"Recepción de Materiales NTM",
+  "short_name":"Recepción NTM",
+  "description":"Control de materiales recibidos desde NTM con comparación física y reporte PDF.",
+  "start_url":"./index.html",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"portrait-primary",
+  "background_color":"#08111f",
+  "theme_color":"#08111f",
+  "icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
